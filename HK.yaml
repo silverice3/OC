@@ -40,8 +40,10 @@ proxies:
   - {name: 台灣 TW, server: tw-hinet1.hkss.online, port: 3545, type: ss, cipher: aes-256-gcm, password: 6XmfBG, plugin: obfs, plugin-opts: {mode: http, host: b46d56094.n3-ofca-hongkong-hk.samknows.com}}
   - {name: 新加坡 SGP, server: sgp-1.hkss.online, port: 3545, type: ss, cipher: aes-256-gcm, password: 6XmfBG, plugin: obfs, plugin-opts: {mode: http, host: b46d56094.n3-ofca-hongkong-hk.samknows.com}}
   - {name: -HKSSNetwork 節點-, server: my.hkssnetwork.org, port: 3545, type: ss, cipher: aes-256-gcm, password: 6XmfBG, plugin: obfs, plugin-opts: {mode: http, host: b46d56094.n3-ofca-hongkong-hk.samknows.com}}
+  - {name: 节点 1, server: aa.sztech.xyz, port: 36766, type: ss, cipher: aes-256-gcm, password: your-password, plugin: obfs, plugin-opts: {mode: http, host: aa.sztech.xyz}}
   - {name: vmess-27459, server: aa.sztech.xyz, port: 27459, type: vmess, uuid: 344ef19c-13af-4127-ff5d-633860e0c851, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: vmess-45206, server: aa.sztech.xyz, port: 45206, type: vmess, uuid: 344ef19c-13af-4127-ff5d-633860e0c851, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mq, headers: {Host: aa.sztech.xyz}}}
+  - {name: vmess-45206, server: aa.sztech.xyz, port: 45206, type: vmess, uuid: 344ef19c-13af-4127-ff5d-633860e0c851, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/mq", headers: {Host: aa.sztech.xyz}}}
+
 proxy-groups:
   - name: 🔰 节点选择
     type: select
