@@ -93,6 +93,33 @@ proxy-groups:
       - 台灣 TW
       - 新加坡 SGP
       - -HKSSNetwork 節點-
+  - name: 🎥 AI
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - -HK香港-VIP3 - A
+      - -HK香港-VIP3 - B
+      - -HK香港-VIP3 - C
+      - HK香港 - VIP3 備用節點
+      - HK Premium 1
+      - HK Premium 2
+      - HK Premium 3
+      - HK6 hk【不扣除流量】
+      - HK8 hk【年付尊享】1
+      - HK8 hk【年付尊享】2
+      - JP日本-VIP2
+      - HK Standard 1
+      - HK Standard 2
+      - HK Standard 3
+      - HK Standard 4
+      - JP 日本
+      - US 美國
+      - US 美國 2
+      - 台灣 TW
+      - 新加坡 SGP
+      - -HKSSNetwork 節點-
   - name: 🎥 NETFLIX
     type: select
     proxies:
